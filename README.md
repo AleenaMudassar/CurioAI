@@ -127,34 +127,34 @@ CurioAI is built with an educator-first mindset: AI assists instruction, improve
 
 ### 1. Click “I’m a Teacher”
 
-### 2.Enter your name and click Create class
+### 2. Enter your name and click Create class
 
 ### 3. Share the generated class code with students
 
-### 4.Upload your lesson plan in Lesson & Notes
+### 4. Upload your lesson plan in Lesson & Notes
 
-### 5.Click Generate teaching notes
+### 5. Click Generate teaching notes
 
-### 6.View and respond to student questions
+### 6. View and respond to student questions
 
-### 7.Release exercises and analyze responses
+### 7. Release exercises and analyze responses
 
-### 8.Review exit tickets and student progress
+### 8. Review exit tickets and student progress
 
 --
 
 ## 🧒 Student Flow
 
-### 1.Click “I’m a Student”
+### 1. Click “I’m a Student”
 
-### 2.Enter your name and the class code
+### 2. Enter your name and the class code
 
-### 3.Ask questions in Ask a Question
+### 3. Ask questions in Ask a Question
 
-### 4.Use Check for confusion for suggested rephrasings
+### 4. Use Check for confusion for suggested rephrasings
 
-### 5.Click Get AI answer if clarification is needed
+### 5 .Click Get AI answer if clarification is needed
 
-### 6.Complete exercises released by the teacher
+### 6. Complete exercises released by the teacher
 
-### 7.Submit an exit ticket at the end of class
+### 7. Submit an exit ticket at the end of class
