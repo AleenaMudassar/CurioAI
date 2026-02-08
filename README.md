@@ -10,7 +10,7 @@ CurioAI is built with an educator-first mindset: AI assists instruction, improve
 
 ---
 
-## ✨ Features
+## Features
 
 ### 👩‍🏫 Teacher Experience
 
@@ -123,7 +123,7 @@ CurioAI is built with an educator-first mindset: AI assists instruction, improve
 ---
 
 # USAGE GUIDE 
-## 👩‍🏫 Teacher Flow
+## Teacher Flow
 
 ### 1. Click “I’m a Teacher”
 
@@ -143,7 +143,7 @@ CurioAI is built with an educator-first mindset: AI assists instruction, improve
 
 --
 
-## 🧒 Student Flow
+## Student Flow
 
 ### 1. Click “I’m a Student”
 
