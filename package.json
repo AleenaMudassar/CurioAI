@@ -1,0 +1,43 @@
+{
+  "name": "gdg-classroom",
+  "version": "0.1.0",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "electron": "electron .",
+    "app": "concurrently -k -n dev,electron \"npm run dev\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "uuid": "^10.0.0",
+    "react-markdown": "^9.0.1",
+    "remark-math": "^6.0.0",
+    "rehype-katex": "^7.0.1",
+    "katex": "^0.16.11"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/uuid": "^10.0.0",
+    "@playwright/test": "^1.49.0",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
+    "electron": "^33.2.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "wait-on": "^8.0.1"
+  }
+}

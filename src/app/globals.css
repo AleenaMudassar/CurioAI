@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #0f172a;
+  --background: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* Safe area for iPad notch / home indicator when installed as app */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+}
+
+/* iPad simulator frame (demo page) */
+.ipad-frame {
+  --ipad-w: 410px;
+  --ipad-h: 580px;
+  width: var(--ipad-w);
+  height: var(--ipad-h);
+  padding: 14px;
+  background: linear-gradient(145deg, #2a2a2a 0%, #1a1a1a 100%);
+  border-radius: 28px;
+  box-shadow:
+    inset 0 0 0 2px #333,
+    inset 0 0 0 4px #111,
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+/* iPad Air–style frame, scaled down so two fit side-by-side on demo (≈50% of 820×1180) */
+.ipad-frame.ipad-air {
+  width: 424px;
+  height: 604px;
+  padding: 14px;
+}
+.ipad-frame.ipad-air .ipad-screen {
+  width: 396px;
+  height: 576px;
+  border-radius: 18px;
+}
+.ipad-frame.ipad-air .ipad-screen iframe {
+  width: 100%;
+  height: 100%;
+  transform: none;
+  border-radius: 18px;
+}
+.ipad-screen {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ipad-frame:not(.ipad-air) .ipad-screen iframe {
+  width: 118%;
+  height: 118%;
+  transform: scale(0.847);
+  transform-origin: 0 0;
+  border-radius: 20px;
+}
+
+/* Multi-colored button classes (playful) */
+.btn-primary { @apply px-4 py-2 rounded-xl font-semibold text-white shadow-md hover:shadow-lg transition; background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); }
+.btn-success { @apply px-4 py-2 rounded-xl font-semibold text-white shadow-md hover:shadow-lg transition; background: linear-gradient(135deg, #059669 0%, #047857 100%); }
+.btn-warning { @apply px-4 py-2 rounded-xl font-semibold text-white shadow-md hover:shadow-lg transition; background: linear-gradient(135deg, #d97706 0%, #b45309 100%); }
+.btn-info { @apply px-4 py-2 rounded-xl font-semibold text-white shadow-md hover:shadow-lg transition; background: linear-gradient(135deg, #0891b2 0%, #0e7490 100%); }
+.btn-accent { @apply px-4 py-2 rounded-xl font-semibold text-white shadow-md hover:shadow-lg transition; background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%); }
+.btn-muted { @apply px-4 py-2 rounded-xl font-semibold text-slate-600 bg-slate-200 hover:bg-slate-300 transition; }
+
+/* KaTeX in AI content - compact */
+.ai-content .katex { font-size: 1em; }
+.ai-content .katex-display { margin: 0.5em 0; }

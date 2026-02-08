@@ -1,0 +1,11 @@
+{
+  "/page": "app/page.js",
+  "/api/class/route": "app/api/class/route.js",
+  "/demo/page": "app/demo/page.js",
+  "/api/student-question/route": "app/api/student-question/route.js",
+  "/api/answers/route": "app/api/answers/route.js",
+  "/teacher/page": "app/teacher/page.js",
+  "/api/questions/route": "app/api/questions/route.js",
+  "/student/page": "app/student/page.js",
+  "/api/lesson/route": "app/api/lesson/route.js"
+}
